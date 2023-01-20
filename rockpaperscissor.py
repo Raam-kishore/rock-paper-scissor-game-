@@ -4,7 +4,7 @@ game_choices =["scissor","rock","paper"]
 user_point=0
 computer_point=0
 for i in range(0,6) :
- print("Enter your choice")
+ print("Enter your choice :")
  user_choice=input()
  computer_choice=random.choice(game_choices)
  print("the computer choice is :",computer_choice)
